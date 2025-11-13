@@ -30,6 +30,9 @@ var options = []option{
 	{"02-11", "Run Basic types.", "02-basics/11-basic-types.go", basics.RunBasics11},
 	{"02-12", "Run Zero values.", "02-basics/12-zero-values.go", basics.RunBasics12},
 	{"02-13", "Run Type conversions.", "02-basics/13-type-conversions.go", basics.RunBasics13},
+	{"02-14", "Run Type inference.", "02-basics/14-type-inference.go", basics.RunBasics14},
+	{"02-15", "Run Constants.", "02-basics/15-constants.go", basics.RunBasics15},
+	{"02-16", "Run Numeric Constants.", "02-basics/16-numeric-constants.go", basics.RunBasics16},
 }
 
 var mapping = func() map[string]func() {
