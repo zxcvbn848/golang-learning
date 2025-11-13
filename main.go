@@ -3,6 +3,7 @@ package main
 import (
 	welcome "first-golang/01-welcome"
 	basics "first-golang/02-basics"
+	flowControl "first-golang/03-flow-control"
 	"fmt"
 	"os"
 )
@@ -33,6 +34,11 @@ var options = []option{
 	{"02-14", "Run Type inference.", "02-basics/14-type-inference.go", basics.RunBasics14},
 	{"02-15", "Run Constants.", "02-basics/15-constants.go", basics.RunBasics15},
 	{"02-16", "Run Numeric Constants.", "02-basics/16-numeric-constants.go", basics.RunBasics16},
+	{"03-01", "Run For.", "03-flow-control/01-for.go", flowControl.RunFlowControl01},
+	{"03-02", "Run For continued.", "03-flow-control/02-for-continued.go", flowControl.RunFlowControl02},
+	// 03-03 同 03-02
+	{"03-04", "Run Forever.", "03-flow-control/04-forever.go", flowControl.RunFlowControl04},
+	{"03-05", "Run If.", "03-flow-control/05-if.go", flowControl.RunFlowControl05},
 }
 
 var mapping = func() map[string]func() {
