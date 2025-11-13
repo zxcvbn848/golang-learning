@@ -29,6 +29,7 @@ var options = []option{
 	{"02-10", "Run Short variable declarations.", "02-basics/10-short-variable-declarations.go", basics.RunBasics10},
 	{"02-11", "Run Basic types.", "02-basics/11-basic-types.go", basics.RunBasics11},
 	{"02-12", "Run Zero values.", "02-basics/12-zero-values.go", basics.RunBasics12},
+	{"02-13", "Run Type conversions.", "02-basics/13-type-conversions.go", basics.RunBasics13},
 }
 
 var mapping = func() map[string]func() {
