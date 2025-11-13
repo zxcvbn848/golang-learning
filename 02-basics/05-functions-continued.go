@@ -3,10 +3,10 @@ package basics
 
 import "fmt"
 
-func add(x, y, z int) int {
+func addBasics05(x, y, z int) int {
 	return x + y + z
 }
 
 func RunBasics05() {
-	fmt.Println(add(42, 13, 50))
+	fmt.Println(addBasics05(42, 13, 50))
 }
