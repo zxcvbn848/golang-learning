@@ -4,6 +4,7 @@ import (
 	welcome "first-golang/01-welcome"
 	basics "first-golang/02-basics"
 	flowControl "first-golang/03-flow-control"
+	moreTypes "first-golang/04-more-types"
 	"fmt"
 	"os"
 )
@@ -39,6 +40,22 @@ var options = []option{
 	// 03-03 同 03-02
 	{"03-04", "Run Forever.", "03-flow-control/04-forever.go", flowControl.RunFlowControl04},
 	{"03-05", "Run If.", "03-flow-control/05-if.go", flowControl.RunFlowControl05},
+	{"03-06", "Run If with a short statement.", "03-flow-control/06-if-with-a-short-statement.go", flowControl.RunFlowControl06},
+	{"03-07", "Run If and else.", "03-flow-control/07-if-and-else.go", flowControl.RunFlowControl07},
+	{"03-08", "Run Exercise: Loops and Functions.", "03-flow-control/08-exercise-loops-and-functions.go", flowControl.RunFlowControl08},
+	{"03-09", "Run Switch.", "03-flow-control/09-switch.go", flowControl.RunFlowControl09},
+	{"03-10", "Run Switch evaluation order.", "03-flow-control/10-switch-evaluation-order.go", flowControl.RunFlowControl10},
+	{"03-11", "Run Switch with no condition.", "03-flow-control/11-switch-with-no-condition.go", flowControl.RunFlowControl11},
+	{"03-12", "Run Defer.", "03-flow-control/12-defer.go", flowControl.RunFlowControl12},
+	{"03-13", "Run Stacking defers.", "03-flow-control/13-stacking-defers.go", flowControl.RunFlowControl13},
+	{"04-01", "Run Pointers.", "04-more-types/01-pointers.go", moreTypes.RunMoreTypes01},
+	{"04-02", "Run Structs.", "04-more-types/02-structs.go", moreTypes.RunMoreTypes02},
+	{"04-03", "Run Struct fields.", "04-more-types/03-struct-fields.go", moreTypes.RunMoreTypes03},
+	{"04-04", "Run Pointers to structs.", "04-more-types/04-pointers-to-structs.go", moreTypes.RunMoreTypes04},
+	{"04-05", "Run Struct literals.", "04-more-types/05-struct-literals.go", moreTypes.RunMoreTypes05},
+	{"04-06", "Run Arrays.", "04-more-types/06-arrays.go", moreTypes.RunMoreTypes06},
+	{"04-07", "Run Slices.", "04-more-types/07-slices.go", moreTypes.RunMoreTypes07},
+	{"04-08", "Run Slices are like references to arrays.", "04-more-types/08-slices-are-like-references-to-arrays.go", moreTypes.RunMoreTypes08},
 }
 
 var mapping = func() map[string]func() {
