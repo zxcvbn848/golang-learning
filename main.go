@@ -63,6 +63,8 @@ var options = []option{
 	{"04-13", "Run Creating a slice with make.", "04-more-types/13-creating-a-slice-with-make.go", moreTypes.RunMoreTypes13},
 	{"04-14", "Run Slices of slices.", "04-more-types/14-slices-of-slices.go", moreTypes.RunMoreTypes14},
 	{"04-15", "Run Appending to a slice.", "04-more-types/15-appending-to-a-slice.go", moreTypes.RunMoreTypes15},
+	{"04-16", "Run Range.", "04-more-types/16-range.go", moreTypes.RunMoreTypes16},
+	{"04-17", "Run Range continued.", "04-more-types/17-range-continued.go", moreTypes.RunMoreTypes17},
 }
 
 var mapping = func() map[string]func() {
