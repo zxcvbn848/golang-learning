@@ -56,6 +56,13 @@ var options = []option{
 	{"04-06", "Run Arrays.", "04-more-types/06-arrays.go", moreTypes.RunMoreTypes06},
 	{"04-07", "Run Slices.", "04-more-types/07-slices.go", moreTypes.RunMoreTypes07},
 	{"04-08", "Run Slices are like references to arrays.", "04-more-types/08-slices-are-like-references-to-arrays.go", moreTypes.RunMoreTypes08},
+	{"04-09", "Run Slice literals.", "04-more-types/09-slice-literals.go", moreTypes.RunMoreTypes09},
+	{"04-10", "Run Slice defaults.", "04-more-types/10-slice-defaults.go", moreTypes.RunMoreTypes10},
+	{"04-11", "Run Slice length and capacity.", "04-more-types/11-slice-length-and-capacity.go", moreTypes.RunMoreTypes11},
+	{"04-12", "Run Nil slices.", "04-more-types/12-nil-slices.go", moreTypes.RunMoreTypes12},
+	{"04-13", "Run Creating a slice with make.", "04-more-types/13-creating-a-slice-with-make.go", moreTypes.RunMoreTypes13},
+	{"04-14", "Run Slices of slices.", "04-more-types/14-slices-of-slices.go", moreTypes.RunMoreTypes14},
+	{"04-15", "Run Appending to a slice.", "04-more-types/15-appending-to-a-slice.go", moreTypes.RunMoreTypes15},
 }
 
 var mapping = func() map[string]func() {
