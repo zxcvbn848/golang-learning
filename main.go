@@ -51,6 +51,11 @@ var options = []option{
 	{"04-01", "Run Pointers.", "04-more-types/01-pointers.go", moreTypes.RunMoreTypes01},
 	{"04-02", "Run Structs.", "04-more-types/02-structs.go", moreTypes.RunMoreTypes02},
 	{"04-03", "Run Struct fields.", "04-more-types/03-struct-fields.go", moreTypes.RunMoreTypes03},
+	{"04-04", "Run Pointers to structs.", "04-more-types/04-pointers-to-structs.go", moreTypes.RunMoreTypes04},
+	{"04-05", "Run Struct literals.", "04-more-types/05-struct-literals.go", moreTypes.RunMoreTypes05},
+	{"04-06", "Run Arrays.", "04-more-types/06-arrays.go", moreTypes.RunMoreTypes06},
+	{"04-07", "Run Slices.", "04-more-types/07-slices.go", moreTypes.RunMoreTypes07},
+	{"04-08", "Run Slices are like references to arrays.", "04-more-types/08-slices-are-like-references-to-arrays.go", moreTypes.RunMoreTypes08},
 }
 
 var mapping = func() map[string]func() {
