@@ -4,6 +4,7 @@ import (
 	welcome "first-golang/01-welcome"
 	basics "first-golang/02-basics"
 	flowControl "first-golang/03-flow-control"
+	moreTypes "first-golang/04-more-types"
 	"fmt"
 	"os"
 )
@@ -47,6 +48,9 @@ var options = []option{
 	{"03-11", "Run Switch with no condition.", "03-flow-control/11-switch-with-no-condition.go", flowControl.RunFlowControl11},
 	{"03-12", "Run Defer.", "03-flow-control/12-defer.go", flowControl.RunFlowControl12},
 	{"03-13", "Run Stacking defers.", "03-flow-control/13-stacking-defers.go", flowControl.RunFlowControl13},
+	{"04-01", "Run Pointers.", "04-more-types/01-pointers.go", moreTypes.RunMoreTypes01},
+	{"04-02", "Run Structs.", "04-more-types/02-structs.go", moreTypes.RunMoreTypes02},
+	{"04-03", "Run Struct fields.", "04-more-types/03-struct-fields.go", moreTypes.RunMoreTypes03},
 }
 
 var mapping = func() map[string]func() {
