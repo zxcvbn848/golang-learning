@@ -65,6 +65,15 @@ var options = []option{
 	{"04-15", "Run Appending to a slice.", "04-more-types/15-appending-to-a-slice.go", moreTypes.RunMoreTypes15},
 	{"04-16", "Run Range.", "04-more-types/16-range.go", moreTypes.RunMoreTypes16},
 	{"04-17", "Run Range continued.", "04-more-types/17-range-continued.go", moreTypes.RunMoreTypes17},
+	{"04-18", "Run Exercise: Slices.", "04-more-types/18-Exercise:Slices.go", moreTypes.RunMoreTypes18},
+	{"04-19", "Run Maps.", "04-more-types/19-maps.go", moreTypes.RunMoreTypes19},
+	{"04-20", "Run Map literals.", "04-more-types/20-map-literals.go", moreTypes.RunMoreTypes20},
+	{"04-21", "Run Map literals continued.", "04-more-types/21-map-literals-continued.go", moreTypes.RunMoreTypes21},
+	{"04-22", "Run Mutating Maps.", "04-more-types/22-mutating-maps.go", moreTypes.RunMoreTypes22},
+	{"04-23", "Run Exercise: Maps.", "04-more-types/23-exercise-maps.go", moreTypes.RunMoreTypes23},
+	{"04-24", "Run Function values.", "04-more-types/24-function-values.go", moreTypes.RunMoreTypes24},
+	{"04-25", "Run Function closures.", "04-more-types/25-function-closures.go", moreTypes.RunMoreTypes25},
+	{"04-26", "Run Exercise: Fibonacci closure.", "04-more-types/26-Exercise:Fibonacci-closure.go", moreTypes.RunMoreTypes26},
 }
 
 var mapping = func() map[string]func() {
