@@ -5,6 +5,7 @@ import (
 	basics "first-golang/02-basics"
 	flowControl "first-golang/03-flow-control"
 	moreTypes "first-golang/04-more-types"
+	methods "first-golang/05-methods"
 	"fmt"
 	"os"
 )
@@ -74,6 +75,15 @@ var options = []option{
 	{"04-24", "Run Function values.", "04-more-types/24-function-values.go", moreTypes.RunMoreTypes24},
 	{"04-25", "Run Function closures.", "04-more-types/25-function-closures.go", moreTypes.RunMoreTypes25},
 	{"04-26", "Run Exercise: Fibonacci closure.", "04-more-types/26-Exercise:Fibonacci-closure.go", moreTypes.RunMoreTypes26},
+	{"05-01", "Run Methods.", "05-methods/01-Methods.go", methods.RunMethods01},
+	{"05-02", "Run Methods are functions.", "05-methods/02-Methods-are-functions.go", methods.RunMethods02},
+	{"05-03", "Run Methods continued.", "05-methods/03-Methods-continued.go", methods.RunMethods03},
+	{"05-04", "Run Pointer receivers.", "05-methods/04-Pointer-receivers.go", methods.RunMethods04},
+	{"05-05", "Run Pointers and functions.", "05-methods/05-Pointers-and-functions.go", methods.RunMethods05},
+	{"05-06", "Run Methods and pointer indirection.", "05-methods/06-Methods-and-pointer-indirection.go", methods.RunMethods06},
+	{"05-07", "Run Methods and pointer indirection (2).", "05-methods/07-Methods-and-pointer-indirection-(2).go", methods.RunMethods07},
+	{"05-08", "Run Choosing a value or pointer receiver.", "05-methods/08-Choosing-a-value-or-pointer-receiver.go", methods.RunMethods08},
+	{"05-09", "Run Interfaces.", "05-methods/09-Interfaces.go", methods.RunMethods09},
 }
 
 var mapping = func() map[string]func() {
