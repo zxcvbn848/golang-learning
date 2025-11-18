@@ -85,6 +85,9 @@ var options = []option{
 	{"05-08", "Run Choosing a value or pointer receiver.", "05-methods/08-Choosing-a-value-or-pointer-receiver.go", methods.RunMethods08},
 	{"05-09", "Run Interfaces.", "05-methods/09-Interfaces.go", methods.RunMethods09},
 	{"05-10", "Run Interfaces are implemented implicitly.", "05-methods/10-Interfaces-are-implemented-implicitly.go", methods.RunMethods10},
+	{"05-11", "Run Interface values.", "05-methods/11-Interface-values.go", methods.RunMethods11},
+	{"05-12", "Run Interface values with nil underlying values.", "05-methods/12-Interface-values-with-nil-underlying-values.go", methods.RunMethods12},
+	{"05-13", "Run Nil interface values.", "05-methods/13-Nil-interface-values.go", methods.RunMethods13},
 }
 
 var mapping = func() map[string]func() {
