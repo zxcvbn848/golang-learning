@@ -88,6 +88,7 @@ var options = []option{
 	{"05-11", "Run Interface values.", "05-methods/11-Interface-values.go", methods.RunMethods11},
 	{"05-12", "Run Interface values with nil underlying values.", "05-methods/12-Interface-values-with-nil-underlying-values.go", methods.RunMethods12},
 	{"05-13", "Run Nil interface values.", "05-methods/13-Nil-interface-values.go", methods.RunMethods13},
+	{"05-14", "Run The empty interface.", "05-methods/14-The-empty-interface.go", methods.RunMethods14},
 }
 
 var mapping = func() map[string]func() {
