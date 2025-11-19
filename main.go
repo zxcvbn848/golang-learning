@@ -92,6 +92,8 @@ var options = []option{
 	{"05-15", "Run Type assertions.", "05-methods/15-Type-assertions.go", methods.RunMethods15},
 	{"05-16", "Run Type switches.", "05-methods/16-Type-switches.go", methods.RunMethods16},
 	{"05-17", "Run Stringers.", "05-methods/17-Stringers.go", methods.RunMethods17},
+	{"05-18", "Run Exercise: Stringers.", "05-methods/18-Exercise:Stringers.go", methods.RunMethods18},
+	{"05-19", "Run Errors.", "05-methods/19-Errors.go", methods.RunMethods19},
 }
 
 var mapping = func() map[string]func() {
