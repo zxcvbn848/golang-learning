@@ -7,6 +7,7 @@ import (
 	moreTypes "first-golang/04-more-types"
 	methods "first-golang/05-methods"
 	generics "first-golang/06-generics"
+	concurrency "first-golang/07-concurrency"
 	"fmt"
 	"os"
 )
@@ -103,6 +104,9 @@ var options = []option{
 	{"05-25", "Run Exercise: Images.", "05-methods/25-Exercise:Images.go", methods.RunMethods25},
 	{"06-01", "Run Type parameters.", "06-generics/01-Type-parameters.go", generics.RunGenerics01},
 	{"06-02", "Run Generic types.", "06-generics/02-Generic-types.go", generics.RunGenerics02},
+	{"07-01", "Run Goroutines.", "07-concurrency/01-Goroutines.go", concurrency.RunConcurrency01},
+	{"07-02", "Run Channels.", "07-concurrency/02-Channels.go", concurrency.RunConcurrency02},
+	{"07-03", "Run Buffered Channels.", "07-concurrency/03-Buffered-Channels.go", concurrency.RunConcurrency03},
 }
 
 var mapping = func() map[string]func() {
