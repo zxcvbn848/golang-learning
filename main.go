@@ -6,6 +6,7 @@ import (
 	flowControl "first-golang/03-flow-control"
 	moreTypes "first-golang/04-more-types"
 	methods "first-golang/05-methods"
+	generics "first-golang/06-generics"
 	"fmt"
 	"os"
 )
@@ -100,6 +101,8 @@ var options = []option{
 	{"05-23", "Run Exercise: rot13Reader.", "05-methods/23-Exercise:rot13Reader.go", methods.RunMethods23},
 	{"05-24", "Run Images.", "05-methods/24-Images.go", methods.RunMethods24},
 	{"05-25", "Run Exercise: Images.", "05-methods/25-Exercise:Images.go", methods.RunMethods25},
+	{"06-01", "Run Type parameters.", "06-generics/01-Type-parameters.go", generics.RunGenerics01},
+	{"06-02", "Run Generic types.", "06-generics/02-Generic-types.go", generics.RunGenerics02},
 }
 
 var mapping = func() map[string]func() {
