@@ -110,6 +110,9 @@ var options = []option{
 	{"07-04", "Run Range and Close.", "07-concurrency/04-Range-and-Close.go", concurrency.RunConcurrency04},
 	{"07-05", "Run Select.", "07-concurrency/05-Select.go", concurrency.RunConcurrency05},
 	{"07-06", "Run Default Selection.", "07-concurrency/06-Default-Selection.go", concurrency.RunConcurrency06},
+	{"07-07", "Run Exercise: Equivalent Binary Trees.", "07-concurrency/07&08-Exercise:Equivalent-Binary-Trees.go", concurrency.RunConcurrency07},
+	{"07-09", "Run sync.Mutex.", "07-concurrency/09-sync.Mutex.go", concurrency.RunConcurrency09},
+	{"07-10", "Run Exercise: Web Crawler.", "07-concurrency/10-Exercise:Web-Crawler.go", concurrency.RunConcurrency10},
 }
 
 var mapping = func() map[string]func() {
