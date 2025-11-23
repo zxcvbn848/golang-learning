@@ -6,6 +6,8 @@ import (
 	flowControl "first-golang/03-flow-control"
 	moreTypes "first-golang/04-more-types"
 	methods "first-golang/05-methods"
+	generics "first-golang/06-generics"
+	concurrency "first-golang/07-concurrency"
 	"fmt"
 	"os"
 )
@@ -100,6 +102,14 @@ var options = []option{
 	{"05-23", "Run Exercise: rot13Reader.", "05-methods/23-Exercise:rot13Reader.go", methods.RunMethods23},
 	{"05-24", "Run Images.", "05-methods/24-Images.go", methods.RunMethods24},
 	{"05-25", "Run Exercise: Images.", "05-methods/25-Exercise:Images.go", methods.RunMethods25},
+	{"06-01", "Run Type parameters.", "06-generics/01-Type-parameters.go", generics.RunGenerics01},
+	{"06-02", "Run Generic types.", "06-generics/02-Generic-types.go", generics.RunGenerics02},
+	{"07-01", "Run Goroutines.", "07-concurrency/01-Goroutines.go", concurrency.RunConcurrency01},
+	{"07-02", "Run Channels.", "07-concurrency/02-Channels.go", concurrency.RunConcurrency02},
+	{"07-03", "Run Buffered Channels.", "07-concurrency/03-Buffered-Channels.go", concurrency.RunConcurrency03},
+	{"07-04", "Run Range and Close.", "07-concurrency/04-Range-and-Close.go", concurrency.RunConcurrency04},
+	{"07-05", "Run Select.", "07-concurrency/05-Select.go", concurrency.RunConcurrency05},
+	{"07-06", "Run Default Selection.", "07-concurrency/06-Default-Selection.go", concurrency.RunConcurrency06},
 }
 
 var mapping = func() map[string]func() {
