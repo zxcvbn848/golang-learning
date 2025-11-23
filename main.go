@@ -107,6 +107,8 @@ var options = []option{
 	{"07-01", "Run Goroutines.", "07-concurrency/01-Goroutines.go", concurrency.RunConcurrency01},
 	{"07-02", "Run Channels.", "07-concurrency/02-Channels.go", concurrency.RunConcurrency02},
 	{"07-03", "Run Buffered Channels.", "07-concurrency/03-Buffered-Channels.go", concurrency.RunConcurrency03},
+	{"07-04", "Run Range and Close.", "07-concurrency/04-Range-and-Close.go", concurrency.RunConcurrency04},
+	{"07-05", "Run Select.", "07-concurrency/05-Select.go", concurrency.RunConcurrency05},
 }
 
 var mapping = func() map[string]func() {
